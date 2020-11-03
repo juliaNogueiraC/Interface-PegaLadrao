@@ -1,15 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
-body {
-  background-color: #dddddd;
-  color: rgba(0, 0, 1);
-  font-family: "Nunito", sans-serif;
-  font-size: 20px;
-  width: 900px;
-  background-color: white;
-  padding: 10px 10px 10px 10px;
-}
-
 header {
   background-color: black;
   padding: 100px 100px 100px 100px;
@@ -17,7 +7,9 @@ header {
   margin-right: -600px;
   margin-top: -70px;
   padding-bottom: 10px;
+  
 }
+
 .container img {
   margin-top: -10px;
   padding-top: -100px;
@@ -29,17 +21,18 @@ nav#menu ul {
   text-transform: uppercase;
   position: absolute;
   top: -10px;
-  left: 600px;
+  left: 700px;
 }
 nav#menu li {
   display: inline-block;
-  background-color: #868585;
-  padding: 12px;
+  background-color:#656161;
+  padding: 10px;
   margin: 5px;
   transition: background-color 1s;
+  
 }
 nav#menu li:hover {
-  background-color: #606060;
+  background-color: #656161;
 }
 
 nav#menu h1 {
@@ -47,12 +40,27 @@ nav#menu h1 {
 }
 
 nav#menu a {
-  color: black;
+  color:white ;
   text-decoration: none;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", sans-serif ;
+  font-size: 12px;
+  
  
 }
 
 nav#menu a:hover {
-  color: white;
+  color:black;
+}
+
+
+body {
+  background-color: #dddddd;
+  color: rgba(0, 0, 1);
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  width: 900px;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  padding-left: 30px;
+  
 }
