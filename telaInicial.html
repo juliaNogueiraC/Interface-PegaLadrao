@@ -1,48 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-
-  <meta charset="UTF-8" />
-  <title>Pega Ladrão!</title>
-  <link rel="stylesheet" href=" ../css/estilo.css" />
-
+  <meta charset="UTF-8"/>
+  <title>Pega Ladrão - Home</title>
+  <!--Bootstrap css-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilo.css" /> 
+  
 </head>
 
-
-<header>
-  
-  <div class="container">
-    <img src="./imagens/icon.png" width="120" height="120" />
-
-  </div>
-  <nav id="menu">
-
-    <ul>
-      <li><a href="login.html">Registrar ocorrência</a></li>
-      <li><a href="VerLocal.html">Ver ocorrências de um local </a></li>
-
-    </ul>
-
-  </nav>
-
-
-</header>
-
 <body>
-  </br>
-  <h1> Bem-Vindo(a)!</h1>
-  <p>
-    </br>
-    </br>
-    <em> Pega Ladrão </em> é um site de denúncia de ocorrências policiais. </br>
-    Nós queremos informar para você o quão seguro ou não pode ser um determinado local . </br>
-    Aqui você pode ir registrando todas as ocorrências que acontecerem com você, além de </br> 
-    ter acesso a ocorrência de outras pessoas .
-  </p>
+  <!--   INICIO MENU   -->
+  <nav id="menu" class="navbar navbar-expand-lg static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+            <img src="./imagens/icon.png" width="70" height="70"alt="">
+          </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Registrar ocorrência</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="VerOcorrencia.html">Ver ocorrências de um local</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--   FIM MENU   -->
+
+  <!-- INICIO CONTEÚDO-->
+  <div id="conteudo"class="container">
+    <div class="row">
+      <div class="col">
+        <h1> Bem-Vindo(a)!</h1>
+      </br>
+        <p>
+        <em> Pega Ladrão </em> é um site de denúncia de ocorrências policiais. </br>
+        Nós queremos informar para você o quão seguro ou não pode ser um determinado local . </br>
+        Aqui você pode ir registrando todas as ocorrências que acontecerem com você, além de </br> 
+        ter acesso a ocorrência de outras pessoas .
+      </p>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!-- FIM CONTEÚDO-->
+
+  <!-- INICIO RODAPÉ-->
+<footer>
+  <div id="copyright" class="text-center fixed-bottom py-3"> 
+    © 2020 Copyright: TYLAB
+  </div>
+</footer>
+<!-- FIM RODAPÉ-->
 
 </body>
-
-
-
 </html>
